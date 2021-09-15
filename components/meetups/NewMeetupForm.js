@@ -45,13 +45,13 @@ function NewMeetupForm(props){
                     <input type = 'text' required id = 'address' ref = {addressInputRef} />
                 </div>
                 <div className = {classes.control}>
-                    <label htmlFor = 'title'>Description</label>
+                    <label htmlFor = 'title'>Descriptionxxxx</label>
                     <textarea id = 'description' required rows = '5' ref = {descriptionInputRef}>
                     </textarea>
                 </div>
-                <div className = {classes.actions}>
-                    <button>Add Meetups - Dili nako maghubog</button>
-                </div>
+                {/* <div className = {classes.actions}>
+                    <button>Add Meetups</button>
+                </div>  */}
             </form>
         </Card>
     );
