@@ -50,7 +50,7 @@ function NewMeetupForm(props){
                     </textarea>
                 </div>
                 <div className = {classes.actions}>
-                    <button>Add Meetup</button>
+                    <button>Add Meetups</button>
                 </div>
             </form>
         </Card>
