@@ -49,9 +49,9 @@ function NewMeetupForm(props){
                     <textarea id = 'description' required rows = '5' ref = {descriptionInputRef}>
                     </textarea>
                 </div>
-                {/* <div className = {classes.actions}>
-                    <button>Add Meetups</button>
-                </div>  */}
+                <div className = {classes.actions}>
+                    <button>Naa ko sa new branch</button>
+                </div>
             </form>
         </Card>
     );
